@@ -10,11 +10,17 @@ The disconnect button also cuts power to the motor in the same fashion, but it a
 ##parts
 The board consists of a few purchased electrical components:
 - 270KV brushless DC motor
+
 - 150A 1/8 Electric Speed Controller
+
 - 14.8V 4S LiPo batery
+
 - 5V 1A battery pack
+
 - Raspberry Pi 3
+
 - Electrical Compass module.
+
 - A lot of Tape
 
 #Andrew's Labs 6-10
