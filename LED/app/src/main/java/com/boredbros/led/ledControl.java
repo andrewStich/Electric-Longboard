@@ -28,8 +28,8 @@ public class ledControl extends AppCompatActivity {
     TextView speed_display;
     //TextView Dir_display;
     //int LED_level = 0;
-    //byte[] buffer = new byte[1024];
-    //int bytes;
+    byte[] buffer = new byte[1024];
+    int bytes;
     private ProgressDialog progress;
     String address = null;
     BluetoothAdapter myBluetooth = null;
@@ -55,7 +55,7 @@ public class ledControl extends AppCompatActivity {
         btnDis = (Button) findViewById(R.id.Disconnect);
         speed = (SeekBar)findViewById(R.id.seekBar);
         speed_display = (TextView)findViewById(R.id.SPEED);
-        //Dir_display = (TextView)findViewById(R.id.Dir);
+        Dir_display = (TextView)findViewById(R.id.Dir);
 
         new ConnectBT().execute(); //Call the class to connect
 
@@ -82,9 +82,11 @@ public class ledControl extends AppCompatActivity {
                     speed_display.setText(String.valueOf(progress));
                     try {
                         btSocket.getOutputStream().write(String.valueOf(progress).getBytes());
-                        //bytes = btSocket.getInputStream().read(buffer);
-                        //String inMessage = new String(buffer, 0, bytes);
-                        //Dir_display.setText(inMessage);
+						bytes = btSocket.getInputStream().read(buffer);
+						if( bytes != NULL ) {	
+							String inMessage = new String(buffer, 0, bytes);
+							Dir_display.setText(inMessage);
+						}
                     }
                     catch( IOException e) {
                         msg("Error");
