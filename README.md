@@ -4,7 +4,7 @@
 
 [YouTube Video](https://www.youtube.com/watch?v=KHuwPriVj1I&t=19s)
 
-[Andrew App Source Code](https://bitbucket.org/theboredbros/source/src/9c20e408e0f928506f2eb67558b9df443096dac2/LED/app/src/main/java/com/boredbros/led/?at=master)
+[Android App Source Code](https://bitbucket.org/theboredbros/source/src/9c20e408e0f928506f2eb67558b9df443096dac2/LED/app/src/main/java/com/boredbros/led/?at=master)
 
 [RPi Source Code](https://bitbucket.org/theboredbros/source/src/9c20e408e0f928506f2eb67558b9df443096dac2/RPi%20Source/Project.py?at=master&fileviewer=file-view-default)
 
