@@ -25,8 +25,8 @@ The board consists of a few purchased electrical components:
 
 #Andrew's Labs 6-10
 
-[Lab 6] 
-[Lab 7]
-[Lab 8]
-[Lab 9]
-[Lab 10] (https://bitbucket.org/theboredbros/source/wiki/Lab%2010)
+[Lab 6](https://bitbucket.org/theboredbros/source/wiki/Lab%206)
+[Lab 7](https://bitbucket.org/theboredbros/source/wiki/Lab%207)
+[Lab 8](https://bitbucket.org/theboredbros/source/wiki/Lab%208)
+[Lab 9](https://bitbucket.org/theboredbros/source/wiki/Lab%209)
+[Lab 10](https://bitbucket.org/theboredbros/source/wiki/Lab%2010)
