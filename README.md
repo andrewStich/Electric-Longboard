@@ -29,4 +29,4 @@ The board consists of a few purchased electrical components:
 [Lab 7]
 [Lab 8]
 [Lab 9]
-[Lab 10]
+[Lab 10] (https://bitbucket.org/theboredbros/source/wiki/Lab%2010)
