@@ -1,27 +1,9 @@
 # README #
 
-##Overview
-This is the Bored Bros final project for CPE 185. We created an electric longboard that is controlled with an application on the user's android phone. While in use the user can view the direction the board is facing in the app.
+[Andrew App Source Code](https://bitbucket.org/theboredbros/source/src/9c20e408e0f928506f2eb67558b9df443096dac2/LED/app/src/main/java/com/boredbros/led/?at=master)
+[RPi Source Code](https://bitbucket.org/theboredbros/source/src/9c20e408e0f928506f2eb67558b9df443096dac2/RPi%20Source/Project.py?at=master&fileviewer=file-view-default)
 
-##Operation
-The user first must turn two power switches. One for the ESC/motor and one for the raspberry pi. Once powered on the user opens the app on their phone. The app first prompts them to turn on bluetooth if they havent then displays a list of paired devices. Once connected, the user is broght to the control screen whic consists of a slide-bar, a stop button, and a disconnect button. the speed of the board is controlled with the slide-bar. to the left slows the board and to the right speed the board up. the stop button immedeatly cuts power to the motor, thus putting it in "neutral" so the board slows down naturally without throwing the user off.
-The disconnect button also cuts power to the motor in the same fashion, but it also closes the BT connection between the devices.
-
-##parts
-The board consists of a few purchased electrical components:
-- 270KV brushless DC motor
-
-- 150A 1/8 Electric Speed Controller
-
-- 14.8V 4S LiPo batery
-
-- 5V 1A battery pack
-
-- Raspberry Pi 3
-
-- Electrical Compass module.
-
-- A lot of Tape
+The LED folder is the entire Android Studio Project folder. This includes the app layout, debuggin files, source code, and other miscellaneous files needed to create the android .APK file. The source code that I wrote can be found in the link above.
 
 #Andrew's Labs 6-10
 
