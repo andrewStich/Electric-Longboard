@@ -1,6 +1,6 @@
 # README #
 
-[Project Wiki Page](https://bitbucket.org/theboredbros/source/wiki/Home)
+[Project Wiki Page](https://github.com/andrewStich/Electric-Longboard/wiki)
 
 [YouTube Video](https://www.youtube.com/watch?v=KHuwPriVj1I&t=19s)
 
